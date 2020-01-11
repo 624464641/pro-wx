@@ -1,0 +1,11 @@
+/* pages/index/index.wxss */
+.contailner{
+  width: 500rpx;
+  height: 300rpx;
+  background-color: #d5371a;
+  color: white
+}
+.font_title{
+  font-weight:600;
+  font-family:'方正舒体'
+}

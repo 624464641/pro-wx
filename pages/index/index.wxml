@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<view class="contailner">
+  <text class="font_title">测试文本</text>  
+</view>

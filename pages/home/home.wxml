@@ -1,0 +1,12 @@
+<!--pages/home/home.wxml-->
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="supend-bth"> 开始测试 </button>
+
+<view wx:if="{{hasUserInfo}}">
+　　<image bindtap="bindViewTap" 
+           class="userinfo-avatar" 
+           src="{{userInfo.avatarUrl}}" 
+           mode="cover"
+           />
+　　<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+
+</view>
