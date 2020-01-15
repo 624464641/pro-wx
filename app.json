@@ -6,7 +6,8 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#d6d6d6"
+    "navigationBarBackgroundColor": "#d6d6d6",
+    "navigationBarTitleText": "新年祝福 ！"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
