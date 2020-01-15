@@ -17,28 +17,21 @@
           <text class="font_title">{{myUserInfo.nickName}} </text>
         </view>
         <view  class="font_title heard_text">
-           新年祝福标题 
+           鼠年大吉大利 发大财!
         </view>
     </view>
  
   <!---------------------- 头部end---------------------------------------->
 
-
-
  <!---------------------- 内容start---------------------------------------->
     <view class="middle">
          <view class="divLine"></view>
-           <block  wx:for="{{mianList}}" wx:for-index="index"                                                          wx:for-item="item" >
+          <block  wx:for="{{mianList}}" wx:for-index="index"                                                          wx:for-item="item" >
              <view class="font_title " style="line-height:2" >{{index+1}}.{{item}} </view>
            </block>
-
          <view class="divLine"></view>
     </view>
  <!---------------------- 内容end---------------------------------------->
-
- 
-
-
 
  <!---------------------- 尾部start---------------------------------------->
     <view class="footer">

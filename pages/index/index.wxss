@@ -34,7 +34,6 @@ page {
   height: 33%;
   display: flex;
   margin-top: 20rpx;
- 
 }
 .photo{
     width:  30%;
@@ -43,6 +42,7 @@ page {
 .heard_text{
     width:  70%;
     text-align: center;
+    align-items: center;
 }
 
 /*********************中间部分样式***********************************/
