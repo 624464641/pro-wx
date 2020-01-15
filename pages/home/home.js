@@ -20,7 +20,6 @@ Page({
    */
   getUserInfo(option){
     let _thit = this;
-    _thit.showSettingToast("请授权"),
     // 获取用户信息
     wx.getSetting({
       success(res) {

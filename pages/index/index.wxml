@@ -1,6 +1,61 @@
 <!--pages/index/index.wxml-->
+
 <view class="contailner">
+     <view class="bianpao" >
+          <image src="/asset/image/bianpao.jpg" 
+                 mode="aspectFill"
+                 style="width:100% ; height:100%"
+          ></image>
+   </view>
   <view class="inner">
-    <view>头像</view>
+  <!---------------------- 头部start---------------------------------------->
+    <view class="heard" >
+        <view class="photo">
+          <image src="{{myUserInfo.avatarUrl}}" 
+            mode="scaleToFill" style="width:100%; height:80%"
+          />
+          <text class="font_title">{{myUserInfo.nickName}} </text>
+        </view>
+        <view  class="font_title heard_text">
+           新年祝福标题 
+        </view>
+    </view>
+ 
+  <!---------------------- 头部end---------------------------------------->
+
+
+
+ <!---------------------- 内容start---------------------------------------->
+    <view class="middle">
+         <view class="divLine"></view>
+           <block  wx:for="{{mianList}}" wx:for-index="index"                                                          wx:for-item="item" >
+             <view class="font_title " style="line-height:2" >{{index+1}}.{{item}} </view>
+           </block>
+
+         <view class="divLine"></view>
+    </view>
+ <!---------------------- 内容end---------------------------------------->
+
+ 
+
+
+
+ <!---------------------- 尾部start---------------------------------------->
+    <view class="footer">
+       <view class="font_title" style="margin-top:60rpx">
+            <view > 长按识别右边二维码  </view>
+            <view style="margin-left:50rpx"> 分享新年祝福 </view>
+       </view>
+        <view>
+           二维码图片
+        </view>
+    </view>
+ <!---------------------- 尾部start---------------------------------------->
   </view>
+   <view class="bianpao" >
+          <image src="/asset/image/bianpao.jpg" 
+                  mode="aspectFill"
+                  style="width:100% ; height:100%"
+          ></image>
+   </view>
 </view>
